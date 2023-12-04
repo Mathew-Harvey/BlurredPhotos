@@ -12,7 +12,8 @@ builder.Services.AddCors(options =>
         builder => builder.WithOrigins("http://localhost:5500", // Replace with your front-end URL(s)
                                   "http://localhost:3000",     // Add additional origins as needed
                                   "https://yourfrontenddomain.com",
-                                  "http://127.0.0.1:5500")
+                                  "http://127.0.0.1:5500",
+                                  "http://localhost:5035")
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });

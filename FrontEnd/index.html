@@ -5,28 +5,32 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.2/min/dropzone.min.js"></script>
-    <script src="https://cdn.interactjs.io/v1.10.11/interactjs/index.js"></script>
 </head>
-</head>
+
 <body>
     <div class="upload-container">
+        <!-- Dropzone Form -->
         <form id="uploadForm" class="dropzone" enctype="multipart/form-data"></form>
+        <!-- Upload Button -->
         <button id="submitImages" type="button">Upload Images</button>
-        <div id="preview"></div>
     </div>
 
     <div class="image-display">
+        <!-- Container for Original Image -->
         <div id="originalImageContainer" class="image-container">
             <h3>Original Image</h3>
-            <img id="originalImage" src="#" alt="Original Image" style="display:none;">
+            <!-- This image will display the selected file -->
+            <img id="originalImage" src="#" alt="Original Image will appear here" style="display:none;">
         </div>
+        <!-- Container for Processed Image -->
         <div id="processedImageContainer" class="image-container">
             <h3>Processed Image</h3>
-            <img id="processedImage" src="#" alt="Processed Image" style="display:none;">
+            <!-- This image will display the processed file returned from the server -->
+            <img id="processedImage" src="#" alt="Processed Image will appear here" style="display:none;" />
         </div>
     </div>
-    
 
+    <!-- Script for handling the image upload and display -->
     <script src="./script.js"></script>
 </body>
 </html>

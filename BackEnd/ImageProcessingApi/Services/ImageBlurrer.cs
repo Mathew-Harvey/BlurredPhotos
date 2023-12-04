@@ -20,12 +20,14 @@ public class ImageBlurrer
         using (var stream = new MemoryStream())
         {
             await file.CopyToAsync(stream);
+            
             stream.Position = 0; // Reset the stream position to the beginning
             return new Bitmap(stream);
         }
     }
 
     public Bitmap BlurImage(Bitmap image, int radius)
+    
     {
         if (image == null)
         {
@@ -98,4 +100,16 @@ public class ImageBlurrer
 
         return blurredImage;
     }
+     public MemoryStream SaveImageToStream(Bitmap image, ImageFormat format)
+        {
+            if (image == null)
+            {
+                throw new ArgumentNullException(nameof(image), "Image cannot be null.");
+            }
+
+            var stream = new MemoryStream();
+            image.Save(stream, format);
+            stream.Position = 0; // Reset the stream position to the beginning
+            return stream;
+        }
 }
