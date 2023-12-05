@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VVvmXl6WL7aNIZlXhm4h3TOw8kWY7kZWL34X0e1jovNPropu60YRoG+02gyTYselPf3g+gNU9ZoTix0XTxtO0Q==",
+  "dgSpecHash": "iquRc+Rm69RQKwWUKdjqlToOXPXSCL/N3b6uxhvilryluKmodf/icWdPDzPThU5kMMRPUlldKkrH73EhZTb4mA==",
   "success": true,
   "projectFilePath": "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/ImageProcessingApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/mathewharvey/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/mathewharvey/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/mathewharvey/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "/Users/mathewharvey/.nuget/packages/sixlabors.imagesharp/3.1.0/sixlabors.imagesharp.3.1.0.nupkg.sha512",
     "/Users/mathewharvey/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/mathewharvey/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/mathewharvey/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

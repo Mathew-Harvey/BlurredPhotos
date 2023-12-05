@@ -70,3 +70,4 @@ C:/Users/mathe/dev/BlurredPhotos/BackEnd/ImageProcessingApi/obj/Debug/net7.0/ref
 /Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/obj/Debug/net7.0/ImageProcessingApi.pdb
 /Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/obj/Debug/net7.0/ImageProcessingApi.genruntimeconfig.cache
 /Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/obj/Debug/net7.0/ref/ImageProcessingApi.dll
+/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/bin/Debug/net7.0/SixLabors.ImageSharp.dll
