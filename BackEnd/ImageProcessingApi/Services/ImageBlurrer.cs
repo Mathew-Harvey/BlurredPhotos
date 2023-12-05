@@ -1,7 +1,3 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.PixelFormats;
@@ -21,7 +17,7 @@ namespace Services.ImageBlurrer
             using (var stream = new MemoryStream())
             {
                 await file.CopyToAsync(stream);
-                stream.Position = 0; // Reset the stream position to the beginning
+                stream.Position = 0; 
                 return Image.Load<Rgba32>(stream);
             }
         }
@@ -52,7 +48,7 @@ namespace Services.ImageBlurrer
             var stream = new MemoryStream();
             var encoder = GetEncoder(format);
             image.Save(stream, encoder);
-            stream.Position = 0; // Reset the stream position to the beginning
+            stream.Position = 0; 
             return stream;
         }
 

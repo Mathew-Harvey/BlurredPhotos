@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-using Services.ImageBlurrer; // Ensure this matches the actual namespace of ImageBlurrer
+using Services.ImageBlurrer; 
 using System.Threading.Tasks;
-using SixLabors.ImageSharp; // Add ImageSharp namespace
-using SixLabors.ImageSharp.PixelFormats; // Add ImageSharp PixelFormats namespace
+using SixLabors.ImageSharp; 
+using SixLabors.ImageSharp.PixelFormats; 
 
 [ApiController]
 [Route("[controller]")]
@@ -20,7 +20,7 @@ public class ImageController : ControllerBase
         try
         {
             ImageBlurrer blurrer = new ImageBlurrer();
-            Image<Rgba32> originalImage = await blurrer.ConvertToImageAsync(file); // Use Image<Rgba32>
+            Image<Rgba32> originalImage = await blurrer.ConvertToImageAsync(file);
 
             Console.WriteLine("UploadImage: Image conversion successful.");
 
@@ -28,7 +28,7 @@ public class ImageController : ControllerBase
 
             Console.WriteLine("UploadImage: Image blurring successful.");
 
-            using (var imageStream = blurrer.SaveImageToStream(blurredImage, "png")) // Use "png" as string
+            using (var imageStream = blurrer.SaveImageToStream(blurredImage, "png")) 
             {
                 return File(imageStream.ToArray(), "image/png");
             }
