@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\dev\\BlurredPhotos\\BackEnd\\ImageProcessingApi\\ImageProcessingApi.csproj": {}
+    "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/ImageProcessingApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\dev\\BlurredPhotos\\BackEnd\\ImageProcessingApi\\ImageProcessingApi.csproj": {
+    "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/ImageProcessingApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\dev\\BlurredPhotos\\BackEnd\\ImageProcessingApi\\ImageProcessingApi.csproj",
+        "projectUniqueName": "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/ImageProcessingApi.csproj",
         "projectName": "ImageProcessingApi",
-        "projectPath": "C:\\Users\\mathe\\dev\\BlurredPhotos\\BackEnd\\ImageProcessingApi\\ImageProcessingApi.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\dev\\BlurredPhotos\\BackEnd\\ImageProcessingApi\\obj\\",
+        "projectPath": "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/ImageProcessingApi.csproj",
+        "packagesPath": "/Users/mathewharvey/.nuget/packages/",
+        "outputPath": "/Users/mathewharvey/Documents/dev/BlurredPhotos/BackEnd/ImageProcessingApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/mathewharvey/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +42,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

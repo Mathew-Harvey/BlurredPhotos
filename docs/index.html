@@ -8,30 +8,22 @@
 </head>
 
 <body>
-    <h1>First principal program to blur a photo</h1>
+    <h1>Program to blur a photo</h1>
     <div class="upload-container">
-        <!-- Dropzone Form -->
         <form id="uploadForm" class="dropzone" enctype="multipart/form-data"></form>
-        <!-- Upload Button -->
         <button id="submitImages" type="button">Upload Images</button>
     </div>
-
     <div class="image-display">
-        <!-- Container for Original Image -->
         <div id="originalImageContainer" class="image-container">
             <h3>Original Image</h3>
-            <!-- This image will display the selected file -->
             <img id="originalImage" src="#" alt="Original Image will appear here" style="display:none;">
         </div>
-        <!-- Container for Processed Image -->
         <div id="processedImageContainer" class="image-container">
             <h3>Processed Image</h3>
-            <!-- This image will display the processed file returned from the server -->
+
             <img id="processedImage" src="#" alt="Processed Image will appear here" style="display:none;" />
         </div>
     </div>
-
-    <!-- Script for handling the image upload and display -->
     <script src="script.js"></script>
 </body>
 </html>
